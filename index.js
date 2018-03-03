@@ -1,4 +1,4 @@
-const port = process.env.PORT || 10000;
+const port = process.env.PORT || jordanasatlandingpage3.herokuapp.com;
 const server = require("http").Server();
 
 var io = require("socket.io") (server);
